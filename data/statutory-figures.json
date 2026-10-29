@@ -67,10 +67,10 @@
     },
     {
       "id": "vat-commercial-rent-voluntary",
-      "label": "Moms på lokalhyra med frivillig skattskyldighet",
+      "label": "Moms på lokalhyra med frivillig beskattning",
       "value": 25,
       "unit": "percent",
-      "rule": "Uthyrning av lokal är som utgångspunkt momsfri. Med frivillig skattskyldighet, som inträder genom att moms anges i hyresfakturan, är momsen 25 %. Frivillig skattskyldighet är inte möjlig för stadigvarande bostad.",
+      "rule": "Uthyrning av lokal är som utgångspunkt momsfri. Med frivillig beskattning, som inträder genom att moms anges i hyresfakturan, är momsen 25 %. Frivillig beskattning är inte möjlig för stadigvarande bostad.",
       "legalBasis": "12 kap. mervärdesskattelagen (2023:200)",
       "sourceUrl": "https://www.skatteverket.se/skatter/mervardesskattmoms/sarskilt/frivilligskattskyldighetviduthyrningavverksamhetslokal.4.18e1b10334ebe8bc80005741.html"
     },
