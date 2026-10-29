@@ -1,0 +1,13 @@
+{
+  "name": "swedish-property-data",
+  "version": "0.1.0",
+  "description": "Open data and dependency-free helpers for Swedish rent, VAT on commercial rent, KPI indexation, housing-cooperative fees and OCR references. Sourced, dated, tested.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" }, "./data/*": "./data/*" },
+  "files": ["src", "data"],
+  "scripts": { "test": "node --test", "update-kpi": "node scripts/update-kpi.mjs" },
+  "license": "MIT",
+  "keywords": ["sweden", "rent", "hyra", "kpi", "bostadsrättsförening", "ocr", "moms", "proptech"]
+}

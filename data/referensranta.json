@@ -1,0 +1,23 @@
+{
+  "description": "Riksbankens referensränta per kalenderhalvår. Dröjsmålsränta enligt räntelagen = referensränta + 8 procentenheter.",
+  "unit": "percent per year",
+  "source": {
+    "name": "Riksbanken, referensräntan",
+    "url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/referensranta/"
+  },
+  "verifiedOn": "2026-10-18",
+  "coveredThrough": "2026-12-31",
+  "penaltySpreadPercentagePoints": 8,
+  "rows": [
+    { "from": "2022-01-01", "ratePercent": 0 },
+    { "from": "2022-07-01", "ratePercent": 0.5 },
+    { "from": "2023-01-01", "ratePercent": 2.5 },
+    { "from": "2023-07-01", "ratePercent": 3.5 },
+    { "from": "2024-01-01", "ratePercent": 4 },
+    { "from": "2024-07-01", "ratePercent": 4 },
+    { "from": "2025-01-01", "ratePercent": 3 },
+    { "from": "2025-07-01", "ratePercent": 2 },
+    { "from": "2026-01-01", "ratePercent": 2 },
+    { "from": "2026-07-01", "ratePercent": 2 }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "description": "Fasta belopp, procentsatser och frister för svensk hyra, ur lagtexten, med källa. Allmän information, inte juridisk rådgivning.",
+  "verifiedOn": "2026-10-18",
+  "figures": [
+    {
+      "id": "late-interest-spread",
+      "label": "Dröjsmålsränta: påslag på referensräntan",
+      "value": 8,
+      "unit": "percentage points",
+      "rule": "Dröjsmålsränta på förfallen betalning är referensräntan plus 8 procentenheter, om inte annat avtalats, från förfallodagen.",
+      "legalBasis": "3 och 6 §§ räntelagen (1975:635)",
+      "sourceUrl": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/rantelag-1975635_sfs-1975-635/"
+    },
+    {
+      "id": "reminder-fee-max",
+      "label": "Påminnelseavgift: högsta belopp",
+      "value": 60,
+      "unit": "SEK",
+      "rule": "En skriftlig betalningspåminnelse får kosta högst 60 kronor, och bara om det avtalats senast när skulden uppkom.",
+      "legalBasis": "2 och 4 §§ lagen (1981:739) om ersättning för inkassokostnader m.m.",
+      "sourceUrl": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1981739-om-ersattning-for-inkassokostnader-m-m_sfs-1981-739/"
+    },
+    {
+      "id": "collection-demand-fee-max",
+      "label": "Inkassokrav: högsta ersättning",
+      "value": 180,
+      "unit": "SEK",
+      "rule": "Ersättningen för ett inkassokrav är högst 180 kronor.",
+      "legalBasis": "lagen (1981:739) om ersättning för inkassokostnader m.m.",
+      "sourceUrl": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1981739-om-ersattning-for-inkassokostnader-m-m_sfs-1981-739/"
+    },
+    {
+      "id": "payment-plan-fee-max",
+      "label": "Amorteringsplan: högsta ersättning",
+      "value": 170,
+      "unit": "SEK",
+      "rule": "Ersättningen för en amorteringsplan är högst 170 kronor.",
+      "legalBasis": "lagen (1981:739) om ersättning för inkassokostnader m.m.",
+      "sourceUrl": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1981739-om-ersattning-for-inkassokostnader-m-m_sfs-1981-739/"
+    },
+    {
+      "id": "forfeiture-housing-days",
+      "label": "Förverkande av bostadshyresrätt: dröjsmål",
+      "value": 7,
+      "unit": "days after due date (more than)",
+      "rule": "Hyresrätten till en bostad är förverkad om hyran dröjer mer än en vecka efter förfallodagen. Hyresgästen får tillbaka hyresrätten om hyran betalas inom tre veckor från delgiven underrättelse, och socialnämnden har meddelats.",
+      "legalBasis": "12 kap. 42 och 44 §§ jordabalken (1970:994)",
+      "sourceUrl": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/jordabalk-1970994_sfs-1970-994/"
+    },
+    {
+      "id": "forfeiture-premises-workdays",
+      "label": "Förverkande av lokalhyresrätt: dröjsmål",
+      "value": 2,
+      "unit": "workdays after due date (more than)",
+      "rule": "För en lokal är gränsen mer än två vardagar efter förfallodagen, och fristen efter underrättelse är två veckor.",
+      "legalBasis": "12 kap. 42 och 44 §§ jordabalken (1970:994)",
+      "sourceUrl": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/jordabalk-1970994_sfs-1970-994/"
+    },
+    {
+      "id": "rent-due-date",
+      "label": "Förfallodag för hyra",
+      "value": "last workday before the start of each calendar month",
+      "unit": "rule",
+      "rule": "Om inget annat avtalats ska hyran betalas senast sista vardagen före varje kalendermånads början. För en bostadslägenhet får hyresgästen alltid betala till den dagen, för varje månad utom den första.",
+      "legalBasis": "12 kap. 20 § jordabalken (1970:994)",
+      "sourceUrl": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/jordabalk-1970994_sfs-1970-994/"
+    },
+    {
+      "id": "vat-commercial-rent-voluntary",
+      "label": "Moms på lokalhyra med frivillig skattskyldighet",
+      "value": 25,
+      "unit": "percent",
+      "rule": "Uthyrning av lokal är som utgångspunkt momsfri. Med frivillig skattskyldighet, som inträder genom att moms anges i hyresfakturan, är momsen 25 %. Frivillig skattskyldighet är inte möjlig för stadigvarande bostad.",
+      "legalBasis": "12 kap. mervärdesskattelagen (2023:200)",
+      "sourceUrl": "https://www.skatteverket.se/skatter/mervardesskattmoms/sarskilt/frivilligskattskyldighetviduthyrningavverksamhetslokal.4.18e1b10334ebe8bc80005741.html"
+    },
+    {
+      "id": "vat-housing-rent",
+      "label": "Moms på bostadshyra",
+      "value": 0,
+      "unit": "percent",
+      "rule": "Upplåtelse av hyresrätt och bostadsrätt till bostad är undantagen från moms.",
+      "legalBasis": "10 kap. 35 § mervärdesskattelagen (2023:200)",
+      "sourceUrl": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/mervardesskattelag-2023200_sfs-2023-200/"
+    }
+  ]
+}
